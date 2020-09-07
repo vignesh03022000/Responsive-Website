@@ -1,0 +1,532 @@
+*
+{
+    margin:0 ;
+    padding:0 ;
+    font-family: 'Courier New', Courier, monospace;
+
+}
+/*header*/
+#header
+{
+    height:100vh;
+    background-image: url(images/background.png);
+    
+    background-position:center;
+    background-size: cover;/**/
+}
+.container
+{
+    margin-left: 100px;/**/
+    margin-right: 100px;
+   
+}
+.logo
+{
+    margin-top:30px ;
+    width:100px
+
+}
+.header_text
+{
+  max-width: 350px;/* to arrrage the text in corrrect order*/
+  margin-top: 140px;/* from the margine in move down*/
+  
+ 
+}
+
+ h1{
+  
+     font-size:34px;
+}
+/* sqauare*/
+.square
+{
+    width:12px;
+    height:12px;
+    margin-top: 20px;/**/
+    background-color:#f69c92;
+    display:inline-block;/* desplay as the inline block*/
+
+}
+/*button */
+.button
+{
+    padding: 18px 48px;/* buttom box size syntax(top or down ,left or right)*/
+    background:transparent;/* look transparent*/
+   
+    outline:none;/* default outline will lot*/
+    border:4px solid #f69c92;/**/
+   
+    margin-top: 30px;/**/
+    font-weight: bold;/* the bold lettter are formed*/
+    cursor: pointer;/* in brower it help us to point the readmore option*/
+
+
+}
+.header_text p{
+    margin-top: 12px;/**/
+    font-size:18px;
+    line-height:20px;
+    color:#777;
+}
+/* pink line formaton*/
+.line1
+{
+    
+    width:18px;
+    height:18px;
+    margin-top: 20px;/**/
+    background-color:#f69c92;
+    display:inline-block;/* desplay as the inline block*/
+
+}
+.line2
+{
+    
+    width:60px;
+    height:3px;
+
+    background-color:#f69c92;
+    display:inline-block;/* desplay as the inline block*/
+
+
+}
+.line3
+{
+    
+    width:88px;
+    height:3px;
+   
+    background-color:#f69c92;
+    display:inline-block;/* desplay as the inline block*/
+
+}
+/* Navigation*/
+#sideNav
+{
+    width:250px;
+    height:100vh;
+    position: fixed;/* postion is always fixed */
+    right:-250px;/* move towards right */
+    top:0;/* */
+    z-index: 2;/* if the z is in negative its is begind the scree if postive above the screen */
+    background-color:#f67c92;
+    transition: .5s;
+}
+nav ul li
+{
+    list-style:none ;/* remove the style*/
+    margin:50px 50px;/*(top&bottom), (left*rigth) */
+}
+
+nav ul li a
+{
+text-decoration: none ;/* remove the text decoration */
+color:#fff;/* */
+}
+#menuBtn
+{
+    width:50px;
+    position:fixed;
+    right:65px;
+    top:35px;
+    z-index: 2;
+    cursor:pointer;
+   
+
+}
+/* About*/
+#about
+{
+    padding-top:20px;
+    display: flex;/* */
+    align-items:center;
+   flex-wrap:wrap;
+   margin-top:240px;
+  
+   margin-right: 100px;
+  
+
+
+}
+#offer
+
+{
+    padding:0px 0;
+    display: flex;/* */
+    align-items:center;
+   flex-wrap:wrap;
+   margin-bottom:40px;
+   border:2px solid black;
+  
+   margin-right: 100px;
+  
+
+
+}
+ .about_left_col
+ {
+     flex-basis:50%;
+ }
+ .about_left_col img
+ {
+    
+
+     width:100%;
+ }
+ .about_rigth_col
+ {
+     margin-bottom:150px;
+     flex-basis:50%;
+    
+    
+ }
+.about_text
+ {
+    max-width: 750px;/* to arrrage the text in corrrect order*/
+    margin-top: 20px;
+    display:inline-block;
+ }
+ .about_text p{
+
+ font-size:18px;
+ line-height:20px;
+ color:#777;
+}
+/* feature*/
+#feature
+{
+    padding-top:30px;
+    padding-bottom:30px;
+    margin:0px auto 380px;
+  
+}
+.row
+{
+    width:50%;
+    display:flex;/* all the content are default in the row wise */
+    margin: auto;/* margine is set auto */
+    align-items: center;/*  inside the flex it align  iteme in the center */
+    justify-content:space-around;/* share the space equal */
+
+    flex-wrap: wrap;/* */
+
+}
+.col 
+{
+    text-align:center;
+    flex-basis: 20%;/*  size of the item n the flex*/
+
+}
+.col img
+{
+    width:100px;
+   
+}
+.col p
+{
+margin-top:15px ;
+font-size:20px;
+font-weight:200px;
+}
+.feature_btn button
+{
+    margin:80px auto 0px;
+    display:flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+/* Cousres*/
+#course{
+    padding:10px 0px;
+    margin-left: 100px;/**/
+   
+   
+
+}
+.course_row
+{
+    display:flex;
+    align-items:center;
+    flex-wrap: wrap;
+
+}
+
+
+.course_col_right
+{
+flex-basis: 50%;
+}
+.course_col_right img
+{
+ 
+    width:100%;
+}
+.course_col_left
+{
+    flex-basis: 50%;
+    margin-right:auto;
+   
+}
+.course_col_left p
+{
+
+max-width: 350px;
+margin-top: 12px;/**/
+font-size:18px;
+line-height:20px;
+color:#777;
+
+}
+.course_col_left p
+{
+    max-width:350px;
+}
+
+
+.contact_container
+{
+    border:2px solid black;
+    display:flex;
+    margin-left:20px;
+    padding:20px auto 0px;
+    flex-wrap: wrap;
+    align-items: center;
+   
+    
+}
+.contact_left
+{
+    flex-basis: 50%;
+    
+}
+.contact_right
+{
+    flex-basis:50%;
+}
+.contact_right img
+{
+    margin-top:40px;
+    padding:20px;
+    width:100%;
+}
+.input_form
+{
+    
+    height: 50%;
+    margin:0px 0px 20px;
+    padding:0px 20px;
+}
+input
+{
+    
+    width:50%;
+    outline:none;
+    margin:10px 0px;
+    padding:10px 0px;
+   
+    border:3px solid #fab3c4;
+   
+}
+/*
+input[type=text] {
+    width: 100px;
+    transition: width .35s ease-in-out;
+    
+  }
+  input[type=text]:focus {
+    width: 250px;
+  }
+
+
+    input[type=email] {
+        width: 100px;
+        transition: width .35s;
+        
+      }
+      input[type=email]:focus {
+        width: 250px;
+      }
+
+        input[type=password] {
+            width: 100px;
+            transition: width .35s ease-in-out;
+            
+          }
+          input[type=password]:focus {
+            width: 250px;
+          }
+/* footer*/
+#footer
+{
+    padding:80px 0px 30px;
+    
+}
+hr
+{
+    width:100%;
+    border:solid #f67c92;
+}
+.footer-cont
+{
+display:flex;
+align-items:center;
+justify-content: space-around;
+flex-wrap:wrap;
+margin:40px 0px ;
+}
+.footer-cont-left
+{
+ flex-basis:50%;
+ margin-top:60px;
+}
+.footer-cont-right
+{
+flex-basis:45%;
+padding:20px 0px;
+}
+.footer-row
+{
+display:flex;
+
+justify-content: space-between;
+flex-wrap:wrap;
+}
+.footer-col h1
+{
+color:#f67c92;
+height:40px;
+}
+small
+{
+    padding:20px 0px;
+}
+
+.sum
+{
+    display: flex;
+    align-items:flex-end;
+    justify-content: space-between;
+    flex-wrap:wrap;
+}
+.Right-logo img
+{
+    width:100px ;
+    
+    
+}
+.right-col-content,.Right-logo
+{
+flex-basis: 40%;
+}
+
+/*Social icon*/
+#social-ion
+{
+    width:50px;
+    position:fixed;
+    top:50%;
+    left:0;
+    transform: translateY(-50%);
+    z-index: 1;
+
+
+
+}
+#social-ion img{
+    display: block;
+    width:20px;
+    cursor: pointer;
+    margin:0 auto 20px;
+}
+
+
+
+
+
+
+
+
+@media only screen and (max-width:770px)
+{
+    #header
+    {
+        background:none;
+    }
+    .container
+    {
+        margin-left: 50px;/**/
+        margin-right: 50px;
+       
+    }
+    .logo
+    {
+        margin-top:27px ;
+        width:70px;
+    
+    }
+    .header_text
+    {
+      margin-top: 100px;/* to arrrage the text in corrrect order*/
+      /* from the margine in move down*/
+      
+     
+    }
+  
+     h1{
+        
+       font-size:25px
+    }
+    #menuBtn
+{
+    width:40px;
+   
+    right:50px; 
+
+}
+.button
+{
+    padding: 10px 16px;/* buttom box size syntax(top or down ,left or right)*/
+
+}
+#social-ion img{
+
+    width:14px;
+    
+    margin:15px auto;
+}
+.about_left_col,.about_rigth_col
+{
+    flex-basis:100%;
+    margin-left:12px;
+}
+#feature
+{
+   margin-bottom:180px;
+
+  
+}
+.col 
+{
+    margin-bottom:20px;
+    flex-basis: 100%;/*  size of the item n the flex*/
+
+}
+.course_col_right,.course_col_left
+{
+flex-basis: 100%;
+}
+input
+{
+    
+    width:100%;
+    
+   
+}
+.right-col-content,.Right-logo
+{
+flex-basis: 100%;
+}
+
+    
+}
