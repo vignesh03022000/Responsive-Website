@@ -157,7 +157,7 @@ color:#fff;/* */
     align-items:center;
    flex-wrap:wrap;
    margin-bottom:40px;
-   border:2px solid black;
+   
   
    margin-right: 100px;
   
@@ -286,7 +286,7 @@ color:#777;
 
 .contact_container
 {
-    border:2px solid black;
+   
     display:flex;
     margin-left:20px;
     padding:20px auto 0px;
